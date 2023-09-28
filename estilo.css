@@ -1,0 +1,142 @@
+html{
+    font-family: serif;
+    font-size: 36px;
+}
+
+body{
+    margin:10px;
+    background-color:rgb(151, 38, 55)
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    align-items: center;
+    position: auto;
+    
+}
+
+.header-logo{
+    font-size: 44px;
+    margin-left: 30px;
+    
+}
+.header-nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 22px;
+    gap: 16px;
+    margin-right: 30px;
+}
+
+.header-nav a{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 31px;
+}
+
+.header-nav a:hover{
+background-color: #4f5a7c;
+padding: 30px;
+border-radius: 5px;
+}
+
+.imagems div{
+width: 100%;
+margin: 0;
+}
+
+.imagens{
+    justify-content:center;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    
+}
+
+.tamanho{
+    height: 100%;
+    margin: 18px;
+    width: 100%;
+    object-fit: :cover;
+    background-color: silver;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.tamanho:hover{
+	filter: grayscale(100%);
+	filter: gray;
+}
+
+
+.inf{
+    padding: 10px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+h5{
+    font-size:27px;
+    font-family:serif;
+    font-style: italic;
+    color: black;
+    padding: 10px;
+    background-color: rgb(199, 187, 170);
+}
+.extras{
+   
+text-align: left;
+font-size:27px;
+font-family:serif;
+}
+
+.extras ul{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+}
+
+.extras a{
+    color: black;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 31px;
+}
+.extras a:hover{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 31px;
+}
+
+footer{
+    background-color: #771116;
+    padding: 5px;
+    color: #ccc0c0;
+    text-align: center;
+    font-family: serif;
+    font-style: oblique;
+}
+   
+    
+
+
+    
